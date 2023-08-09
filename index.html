@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="section1">
+            <h1>Juego de Memoria</h1> 
+
+
+
+            <table>
+
+             <form name="formulario" method="post" action="usuario.php">
+
+             <div class="estudio_form">
+                <label for="txt_usuario">Nombre de Usuario:</label>
+                <input type="text" class="" id="txt_usuario" name="txt_usuario" placeholder="ingrese el usuario" required="">
+                <button type="submit" class="estudio_button"> ingresar</button>
+             </div>
+             
+
+             </form>
+
+            </table>
+
+
+
+            <table>
+                <tr>
+                    <td><button id="0" onclick="abrircarta(0)"></button></td>
+                    <td><button id="1" onclick="abrircarta(1)"></button></td>
+                    <td><button id="2" onclick="abrircarta(2)"></button></td>
+                    <td><button id="3" onclick="abrircarta(3)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" onclick="abrircarta(4)"></button></td>
+                    <td><button id="5" onclick="abrircarta(5)"></button></td>
+                    <td><button id="6" onclick="abrircarta(6)"></button></td>
+                    <td><button id="7" onclick="abrircarta(7)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="8"  onclick="abrircarta(8)"></button></td>
+                    <td><button id="9"  onclick="abrircarta(9)"></button></td>
+                    <td><button id="10" onclick="abrircarta(10)"></button></td>
+                    <td><button id="11" onclick="abrircarta(11)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" onclick="abrircarta(12)"></button></td>
+                    <td><button id="13" onclick="abrircarta(13)"></button></td>
+                    <td><button id="14" onclick="abrircarta(14)"></button></td>
+                    <td><button id="15" onclick="abrircarta(15)"></button></td>
+                </tr>
+            </table>
+
+
+        </section>
+        <section class="section2">
+            
+            <h2 id="aciertos" class="estudio">Aciertos:0</h2>
+            <h2 id="errores" class="estudio">Errores:0 </h2>
+            <h2 id="movimientos" class="estudio">Movimientos:0</h2>
+        
+        </section>
+    </main>
+    <footer>
+        <p> Prueba Desafio Tecnico Front End</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

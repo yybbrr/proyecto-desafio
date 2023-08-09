@@ -1,0 +1,77 @@
+body{
+    background: rgb(230,214,221);
+background: radial-gradient(circle, rgba(230,214,221,1) 1%, rgba(148,187,233,1) 100%);
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:rgb(224, 14, 88);
+
+
+}
+
+main{
+    width: 800px;
+    margin: 80px auto 40px;
+    display:flex;
+    align-items: center;
+
+}
+.section1{
+    background-color: rgb(230,214,221);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    color: blue;
+    font-weight:bold;
+}
+button:hover{
+    cursor: pointer;
+}
+.section2{
+    background-color: rgb(230,214,221);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 300px;
+    height: 450px;
+    padding: 0 20px;
+}
+.estudio{
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border box;
+}
+.estudio_form{
+    border: 1px solid white;
+    height: 15px;
+    border-radius: 8px;
+    padding: 8px 1px;
+    box-sizing: border box;
+    
+}
+.estudio_button{
+   font-size: 15px;
+   color:rgb(248, 7, 87);
+   border-radius: 8px;
+   height: 25px;
+   border: 1px solid white;
+
+}
+footer{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 80%;
+}
